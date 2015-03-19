@@ -3,4 +3,7 @@ class WelcomeController < ApplicationController
   end
   def about  	
   end
+  def participants
+  	
+  end
 end

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Primer</title>
+  <title>Pioneros UCaldas (Nombre por definir)</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -25,16 +25,13 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
-                	<%= link_to "Inicio", root_path %>
+                	<%= link_to "Inicio", index_path %>
                 </li>
                 <li>
-                	<%= link_to "Quienes Somos", controller: "welcome", action: "about" %>
+                	<%= link_to "Quienes Somos", about_path %>
                 </li>
                 <li>
-                	<a href="">
-                		Participantes	
-                	</a>
-                	
+                	<%= link_to "Participantes", participants_path %>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
