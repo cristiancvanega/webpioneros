@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'index' => 'welcome#index', as: 'index'
   get 'about' => 'welcome#about', as: 'about'
   get 'participants' => 'welcome#participants', as: 'participants'
