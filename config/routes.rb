@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'index' => 'welcome#index', as: 'index'
   get 'about' => 'welcome#about', as: 'about'
   get 'participants' => 'welcome#participants', as: 'participants'
+  
   #get 'sign_in' => 'users#sign_in', as: 'sign_in'
   #get 'sign_un' => 'users#sign_un', as: 'sign_un'
 
